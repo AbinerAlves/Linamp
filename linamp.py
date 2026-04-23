@@ -1,3 +1,7 @@
-print("Olá submundo")
+import tkinter as tk
 
-#Mudei nada
+janela = tk.Tk()
+janela.title("Player")
+janela.geometry("300x200")
+
+janela.mainloop()
